@@ -1,7 +1,7 @@
 # ASCI Computer Vision by Learning Practicals
 
-*Course website*: https://computervisionbylearning.info/</br>
-*Practicals website*: https://asci-cbl-practicals.readthedocs.io/</br>
+*Course website*: https://www.ceessnoek.info/courses/computervisionbylearning/2024/</br>
+<!-- *Practicals website*: https://asci-cbl-practicals.readthedocs.io/</br> -->
 *Course edition*: January 2024</br>
 *Author*: Phillip Lippe</br>
 
