@@ -7,15 +7,9 @@ Welcome to the ASCI Computer Vision by Learning course!
 =======================================================
 
 | *Course website*: http://computervisionbylearning.info/
-| *Course edition*: May, 2022
-| *Repository*: https://github.com/phlippe/asci_cbl_practicals/
-| *Author*: Phillip Lippe
-
------
-
-**UPDATE (May 11)**: To reduce the workload, we decided that each group only has to do Practical 1-3, and choose between Practical 4 **or** Practical 5, but don't require to do both. Each group can individually choose one of the two advanced practicals based on their interests, and are allowed to skip the other practical.
-
------
+| *Course edition*: January, 2025
+| *Repository*: https://github.com/danchern97/asci_cbl_practicals
+| *Author*: Phillip Lippe, Samuele Papa
 
 This website provides you access to the content that we will use for the practical session at the ASCI course "Computer Vision by Learning".
 In the course, you will conduct 5 practicals to different topics in the domain of machine and deep learning for Computer Vision, with increasing complexity to recent research topics in the field.
@@ -30,7 +24,7 @@ For more details, please check the instruction in the section *How to run the no
 
 The practicals are intended to be solved in **groups of 2 students**. 
 You can already find team mates before the course starts if you know fellow students, or form the groups during the first practicals.
-Once you have formed groups, please sign up your group in `this Google spreadsheet <https://docs.google.com/spreadsheets/d/1H1zmIPaep4_4YFX5aS2h_-H6OQFIIGfzHoLztXWD_-k/edit?usp=sharing>`_.
+Once you have formed groups, please sign up your group in `this Google spreadsheet <https://docs.google.com/spreadsheets/d/11Y4uLNx1Cwc7wRM6PSv4IEZUrH7aS-6unXaC0QsAbBA/edit?usp=sharing>`_.
 
 For any remaining questions regarding the practicals, please contact us at p.lippe@uva.nl.
 
@@ -40,22 +34,20 @@ Schedule
 +------------------------------------------+---------------------------------------------------+
 | **Date**                                 | **Practical**                                     |
 +------------------------------------------+---------------------------------------------------+
-| Monday, 9. May 2022                      | Practical 1: Multi-Layer Perceptrons              |
+| Monday, 13. January 2025                 | Practical 1: Multi-Layer Perceptrons              |
 |                                          |                                                   |
-| Tuesday, 10. May 2022                    | Practical 2: Convolutional Neural Networks        |
+| Tuesday, 14. January 2025                | Practical 2: Convolutional Neural Networks        |
 |                                          |                                                   |
-|                                          | Practical 3: Vision Transformers                  |
+| Wednesday, 15. January 2022              | Practical 3: Vision Transformers                  |
 +------------------------------------------+---------------------------------------------------+
-| Wednesday, 11. May 2022                  | Practical 4: Regular Group Convolutions           |
-+------------------------------------------+---------------------------------------------------+
-| Thursday, 12. May 2022                   | Practical 5: Self-Supervised Contrastive Learning |
+| Thursday, 16. January 2022               | Practical 4: Regular Group Convolutions           |
+|                                          |                                                   |
+|                                          | Practical 5: Self-Supervised Contrastive Learning |
 +------------------------------------------+---------------------------------------------------+
 
-The 5 practicals are aligned with the lectures of each day. 
-For the first two days, it is expected that you finish the first three practicals.
-Ideally, you would finish Practical 1 and start with Practical 2 on Monday, and finish Practical 2 as well as Practical 3 on Tuesday.
-For the remaining two days, one practical per day is scheduled which aligns with the first lecture of each day.
-On each day, we have a practical session in the Hotel Casa from 13.30-17.00, where TAs will be in the room to answer your questions.
+You can choose one out of practical 4 and 5, which you can do during Thursday's practical session.
+There will be no practical session on Friday.
+On each day, we have a practical session in the Hotel Casa from 13.30-16.00, where TAs will be in the room to answer your questions.
 
 How to run the notebooks
 ------------------------
@@ -64,7 +56,7 @@ On this website, you will find the notebooks exported into a HTML format so that
 Your task is to fill in the notebooks to solve the practicals.
 There are three main ways of running the notebooks we recommend:
 
-- **Locally on GPU**: If you have a laptop with a build-in NVIDIA GPU, we recommend that you run the practicals on your own machine. All notebooks are stored on the github repository that also builds this website. You can find them here: https://github.com/phlippe/asci_cbl_practicals/. While Practical 1 can be executed on common laptops without a GPU, the later practicals require access to a GPU to keep the training times in a reasonable range. Nonetheless, if you prefer, you can code and test most of your code on a CPU-only system, i.e. your own laptop, and once your code is tested and ready, use one of the remaining options to train the model. To ensure that you have all the right python packages installed, we provide a conda environment in the `same repository <https://github.com/phlippe/asci_cbl_practicals>`_.
+- **Locally on GPU**: If you have a laptop with a build-in NVIDIA GPU, we recommend that you run the practicals on your own machine. All notebooks are stored on the github repository that also builds this website. You can find them here: https://github.com/danchern97/asci_cbl_practicals. While Practical 1 can be executed on common laptops without a GPU, the later practicals require access to a GPU to keep the training times in a reasonable range. Nonetheless, if you prefer, you can code and test most of your code on a CPU-only system, i.e. your own laptop, and once your code is tested and ready, use one of the remaining options to train the model. To ensure that you have all the right python packages installed, we provide a conda environment in the `same repository <https://github.com/danchern97/asci_cbl_practicals>`_.
 
 - **Google Colab**: If you do not have access to a GPU on your local machine, you can make use of `Google Colab <https://colab.research.google.com/notebooks/intro.ipynb#recent=true>`_. Google Colab provides you access to GPUs for free, and you can activate the GPU support by :code:`Runtime -> Change runtime type -> Hardware accelerator: GPU`. Each notebook on this documentation website has a badge with a link to directly open it on Google Colab. It is highly recommend to copy the notebook to your own Google Drive before starting, since when closing the session, changes might be lost if you don't save it to your local computer or have copied the notebook to your Google Drive beforehand. In addition, note that for free account, Google Colab is limited to one session at a time, and each session has a time limit.
 
@@ -77,10 +69,10 @@ There are three main ways of running the notebooks we recommend:
 Report submission
 -----------------
 
-| *Submission email*: asci.cbl.practicals@googlemail.com
-| *Deadline*: 31. May, 2022 (23:59 CEST)
+| *Submission email*: asci.cbl.practicals2025@googlemail.com
+| *Deadline*: 31. January, 2025 (23:59 CEST)
 
-At the end of the course, you are expected to submit a report about your findings of your practicals. The report should be prepared as a PDF in the LaTeX template provided in the repository at `report/`. In the report, you are expected to answer the questions in the practicals, and include any figures requested in the practicals (e.g. the training and/or evaluation curves of a model). Your report should have roughly 1 page per practical, with a maximum of 8 pages. For submission, add your report to your filled notebooks as a zip file and send it to asci.cbl.practicals@googlemail.com. Please make sure to **clear all outputs of the notebooks** before submitting, and **exclude any datasets or trained models from your submission**.
+At the end of the course, you are expected to submit a report about your findings of your practicals. The report should be prepared as a PDF in the LaTeX template provided in the repository at `report/`. In the report, you are expected to answer the questions in the practicals, and include any figures requested in the practicals (e.g. the training and/or evaluation curves of a model). Your report should have roughly 1 page per practical, with a maximum of 8 pages. For submission, add your report to your filled notebooks as a zip file and send it to asci.cbl.practicals2025@googlemail.com. Please make sure to **clear all outputs of the notebooks** before submitting, and **exclude any datasets or trained models from your submission**.
 
 Please remember that we do not allow any form of plagiarism. Any plagiarism will lead to all team members failing the course.
 
