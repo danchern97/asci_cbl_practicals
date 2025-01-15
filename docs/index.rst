@@ -38,9 +38,9 @@ Schedule
 |                                          |                                                   |
 | Tuesday, 14. January 2025                | Practical 2: Convolutional Neural Networks        |
 |                                          |                                                   |
-| Wednesday, 15. January 2022              | Practical 3: Vision Transformers                  |
+| Wednesday, 15. January 2025              | Practical 3: Vision Transformers                  |
 +------------------------------------------+---------------------------------------------------+
-| Thursday, 16. January 2022               | Practical 4: Regular Group Convolutions           |
+| Thursday, 16. January 2025               | Practical 4: Regular Group Convolutions           |
 |                                          |                                                   |
 |                                          | Practical 5: Self-Supervised Contrastive Learning |
 +------------------------------------------+---------------------------------------------------+
