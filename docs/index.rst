@@ -26,7 +26,7 @@ The practicals are intended to be solved in **groups of 2 students**.
 You can already find team mates before the course starts if you know fellow students, or form the groups during the first practicals.
 Once you have formed groups, please sign up your group in `this Google spreadsheet <https://docs.google.com/spreadsheets/d/11Y4uLNx1Cwc7wRM6PSv4IEZUrH7aS-6unXaC0QsAbBA/edit?usp=sharing>`_.
 
-For any remaining questions regarding the practicals, please contact us at p.lippe@uva.nl.
+For any remaining questions regarding the practicals, please contact us at s.papa@uva.nl.
 
 Schedule
 --------
