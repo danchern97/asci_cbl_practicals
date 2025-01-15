@@ -14,7 +14,7 @@ Welcome to the ASCI Computer Vision by Learning course!
 This website provides you access to the content that we will use for the practical session at the ASCI course "Computer Vision by Learning".
 In the course, you will conduct 5 practicals to different topics in the domain of machine and deep learning for Computer Vision, with increasing complexity to recent research topics in the field.
 Throughout the course, you will be guided by Teaching Assistant that help you with any question you may have.
-The teaching team consists of: Adeel Pervez, David Knigge, David Zhang, Tao Hu, Yunhua Zhang, Zenglin Shi, and Phillip Lippe.
+The teaching team consists of: Daniil Cherniavskii, Samuele Papa, Mohammad Derakhshani, and Mohammadreza Salehi.
 
 The practicals require familiarity with the Deep Learning framework "PyTorch" and common scientific computing packages of Python such as numpy. 
 If you are not familiar with PyTorch or would like to have a refresher, please check out our tutorial *Introduction to PyTorch* before the course.
